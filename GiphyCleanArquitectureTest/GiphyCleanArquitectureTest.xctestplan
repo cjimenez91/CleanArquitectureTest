@@ -1,0 +1,39 @@
+{
+  "configurations" : [
+    {
+      "id" : "9BF49E94-2144-4B06-8A22-D9C19D269C28",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:GiphyCleanArquitectureTest.xcodeproj",
+      "identifier" : "DE4018752F617C91006BA9AA",
+      "name" : "GiphyCleanArquitectureTest"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:GiphyCleanArquitectureTest.xcodeproj",
+        "identifier" : "DE4018822F617C93006BA9AA",
+        "name" : "GiphyCleanArquitectureTestTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:GiphyCleanArquitectureTest.xcodeproj",
+        "identifier" : "DE40188C2F617C93006BA9AA",
+        "name" : "GiphyCleanArquitectureTestUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -29,8 +29,6 @@ class OldGifListViewModel {
 
 
         // Aqui vamos a realizar la peticion de datos al servicio.
-
-
         let urlString = "https://api.giphy.com/v1/gifs/search?api_key=N6GGmT60ejgUEx4ianUdYGmknPG00uzP&q=\(query)&limit=20"
 
         guard let url = URL(string: urlString) else {
