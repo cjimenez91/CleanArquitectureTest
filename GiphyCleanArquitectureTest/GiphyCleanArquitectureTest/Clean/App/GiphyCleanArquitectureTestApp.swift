@@ -11,7 +11,7 @@ import SwiftUI
 struct GiphyCleanArquitectureTestApp: App {
     var body: some Scene {
         WindowGroup {
-            OldGifListView()
+            GifListFactory.makeGifListView()
         }
     }
 }
